@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+h1{
+    margin: 20px;
+}
+p{
+    margin: 10px 25px;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#first{
+    height: 50vh;
+    background-color: lightpink;
+}
+#second{
+    height: 50vh;
+    background-color: #211f1f;
+}
+.text2{
+    color: white;
+}
