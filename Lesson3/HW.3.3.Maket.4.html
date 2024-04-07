@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            height: 15vh;
+            background-color: #D9D9D9;
+        }
+        .flexBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .firstBox{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Box1{
+            height: 25vh;
+            width: 33.3vw;
+
+        }
+        .color1{
+            background-color:#979796;;
+        }
+        .color2{
+            background-color:#A5A5A3;
+        }
+        .secondBox{
+            width: 33.3vw;
+            height: 75vh;
+            background-color: #61615C;
+        }
+        .thirdBox{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Box2{
+            height: 37.5vh;
+            width: 33.3vw;
+        }
+        .colorBox21{
+            background-color: #78786F;
+        }
+        .colorBox22{
+            background-color: #828569;
+        }
+        footer{
+            height: 10vh;
+            background-color: #D9D9D9;
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="flexBox">
+            <div class="firstBox">
+                <div class="Box1 color1"></div>
+                <div class="Box1 color2"></div>
+                <div class="Box1 color1"></div>
+            </div>
+            <div class="secondBox"></div>
+            <div class="thirdBox">
+                <div class="Box2 colorBox21"></div>
+                <div class="Box2 colorBox22"></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
