@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+.firstPage{
+    height: 100vh;
+    background-image: url("image 4 .png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondPage{
+    height: 100vh;
+    background-image: url("Rectangle 4.2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdPage{
+    height: 100vh;
+    background-image: url("Rectangle 4.2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.flexBox1{
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexBox3{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    width: 30vw;
+    background: rgba(83, 83, 83, 0.40);
+    font-size: 25px;
+}
+
+.photo{
+    width: 27vw;
+    height: 25vh;
+}
+.iframe{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+iframe{
+    width: 55vw;
+    height: 65vh;
+}
+.img1{
+    height: 40vh;
+    width: 35vw;
+}
+img{
+    height: 40vh;
+    width: 35vw;
+    background-size: cover;
+}
+.text1{
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lorem{
+    margin: 10px;
+    font-size: 17px;
+}
+.button1{
+    margin-top: 20px;
+    width: 20vw;
+    height: 7vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    border-radius: 3px;
+}
+.button2{
+    width: 27vw;
+    height: 8vh;
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    margin-bottom: 20px ;
+}
+span{
+    font-size: 17px;
+}
+.text2{
+    margin-top: 20px;
+    width: 55vw;
+    height: 18vh;
+    font-size: 21px;
+}
+.sizeButton2{
+    font-size: 22px;
+    color: #6B6666;
+}

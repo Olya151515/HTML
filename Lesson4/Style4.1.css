@@ -1,0 +1,103 @@
+.mainFlexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+}
+.logoInst{
+    width: 170px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #d5d3d3;
+    width: 25vw;
+    height: 75vh;
+}
+input[type="text"]{
+    text-overflow: ellipsis;
+    background-color:  rgba(241, 237, 237, 0.78);
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #d5d3d3;
+    height: 4vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+input[type="password"]{
+    margin-top: 5px;
+    height: 4vh;
+    width: 20vw;
+    outline: none;
+    border: 1px solid #d5d3d3;
+    background-color: rgba(241, 237, 237, 0.78);
+    border-radius: 3px;
+    padding: 5px;
+}
+button{
+    margin-top: 10px;
+    width: 20.8vw;
+    height: 6vh;
+    background-color: rgba(30, 144, 255, 0.73);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+span{
+    margin: 14px 0;
+    color: #565555;
+    font-weight: 800;
+}
+.facebookBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebookLogo{
+    width: 20px;
+}
+.hrefFacebook{
+    text-decoration: none;
+    color: rgba(19, 19, 145, 0.76);
+    font-weight: 700;
+}
+.forgotPassword{
+    text-decoration: none;
+    margin-top: 40px;
+    color: rgba(19, 19, 145, 0.76);
+
+    font-weight: 400;
+}
+.sing{
+    text-decoration: none;
+    font-weight: 700;
+    color: dodgerblue;
+    margin-top: 15px;;
+}
+.singUpBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d5d3d3;
+    width: 330px;
+    margin-top: 20px;
+}
+.text{
+    color: black;
+    font-weight: 300;
+}
