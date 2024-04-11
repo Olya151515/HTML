@@ -61,13 +61,15 @@ button{
     border: none;
 }
 span{
-    margin: 14px 0;
+    margin-top: 25px ;
     color: #565555;
     font-weight: 800;
 }
 .facebookBox{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+     margin-top: 17px;
 }
 .facebookLogo{
     width: 20px;
@@ -79,16 +81,18 @@ span{
 }
 .forgotPassword{
     text-decoration: none;
-    margin-top: 20px;
     color: rgba(19, 19, 145, 0.76);
-
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 .sing{
     text-decoration: none;
     font-weight: 700;
     color: dodgerblue;
-    margin-top: 15px;;
+
 }
 .singUpBox{
     display: flex;
@@ -96,9 +100,16 @@ span{
     align-items: center;
     border: 1px solid #d5d3d3;
     width: 25vw;
+    height: 8vh;
     margin-top: 20px;
 }
 .text{
     color: black;
     font-weight: 300;
+}
+.textSing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
