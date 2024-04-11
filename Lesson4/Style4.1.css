@@ -15,7 +15,7 @@
     width: 170px;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .main{
     display: flex;
@@ -24,7 +24,8 @@
     flex-direction: column;
     border: 1px solid #d5d3d3;
     width: 25vw;
-    height: 75vh;
+    height: 60vh;
+    margin-top: 50px;
 }
 input[type="text"]{
     text-overflow: ellipsis;
@@ -78,7 +79,7 @@ span{
 }
 .forgotPassword{
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 20px;
     color: rgba(19, 19, 145, 0.76);
 
     font-weight: 400;
@@ -94,7 +95,7 @@ span{
     justify-content: center;
     align-items: center;
     border: 1px solid #d5d3d3;
-    width: 330px;
+    width: 25vw;
     margin-top: 20px;
 }
 .text{
