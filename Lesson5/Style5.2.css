@@ -28,13 +28,14 @@ h1,p{
 
 }
 .text{
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center ;
-    margin-top: 130px;
+    margin-top: 150px;
+    font-size: 26px;
+    padding: 40px;
 
 }
 .icon1{

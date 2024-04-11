@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+*{
+    margin: 0;
+}
+/*--------header------------------------*/
+header{
+    height: 12vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    width: 50%;
+     background-color: #FAFAFA;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+.logo{
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    width: 10vw;
+    height: 9vh;
+    margin-left: 30px;
+    background-image: url("img.png");
+    background-size: cover;
+}
+/*----------------main---------------------*/
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textMain{
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    margin-left: 200px;
+}
+.span1{
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+
+}
+.span2{
+    color: #333;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.photoMain{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-right:350px;
+}
