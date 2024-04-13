@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 28px;
+}
+nav{
+    width: 23vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+nav>span{
+    background-color: pink;
+    padding: 5px;
+    margin: 3px 3px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+section{
+    height: 80vh;
+}
+.Banner{
+    height: 33vh;
+    border-radius: 20px;
+    background-color:pink;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin: 8px;
+}
+section>.Banner>span{
+    margin: 15px;
+}
+.ArticleBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.Article{
+    height: 20vh;
+    width: 48vw;
+    background-color:pink;
+    margin: 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+section>.ArticleBox>.Article>span{
+    margin: 15px;
+}
+footer{
+    height: 10vh;
+    background-color:pink;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px 5px 8px;
+}
